@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*pc-laptop*/
+
+.tablet-mobile{
+    display: none;
+}
+
+.logo{
+    width: 15vw;
+    margin-top: 5vh;
+    margin-left: 7.5vw;
+    margin-bottom: 5vh;
+}
+
+body{
+    background: linear-gradient(to bottom, #6e86d6ff, #49b3dfff);
+    height: 100vh;
+}
+
+.pc-laptop article{
+    margin: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 55vw;
+    margin-bottom: 3vh;
+}
+
+h1{
+    color: #333;
+    font-family: 'Montserrat', Verdana;
+    font-size: 3em;
+    padding-top: 3.5vh;
+    padding-left: 3vw;
+}
+
+h2{
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding-top: 1vh;
+    padding-left: 3vw;
+}
+
+.requisitos h3{
+
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding-left: 3vw;
+    padding-top: 3vh;
+
+}
+
+.requisitos li{
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    list-style: none;
+}
+
+.listo{
+    margin: auto;
+}
+.listo h3{
+
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+    padding-left: 3vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+a div{
+    width: 30vw;
+    height: 20vh;
+    background-color: #a4ce2dff;
+    color: #fff;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a div h3{
+    font-size: 3em;
+    font-family: sans-serif;
+    
+}
+
+/*tablet-mobile*/
+
+@media only screen and (max-width: 1000px){
+
+    .pc-laptop{
+        display: none;
+    }
+
+    .tablet-mobile{
+        display: block;
+    }
+
+    body{
+        background: #fff;
+        height: 100vh;
+    }
+
+    header div{
+        background: #6e87d6ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .logo-tablet-mobile{
+
+        width: 70vw;
+
+    }
+
+    article{
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 1.5em;
+        padding-top: 3.5vh;
+    }
+
+    .requisitos li{
+        padding-left: 7.5vw;
+    }
+    
+    a div{
+        width: 70vw;
+        height: 15vh;
+    }
+
+    a div h3{
+        font-size: 2.5em;
+    }
+
+    .listo h3{
+        padding-bottom: 5vh;
+    }
+
+}
